@@ -1,0 +1,26 @@
+{
+  "name": "@medicitv/renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable config for Renovate",
+  "scripts": {
+    "test": "renovate-config-validator",
+    "release": "standard-version && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medicitv/renovate-config.git"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "author": "Emmanuel Gautier <egautier@medici.tv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medici/renovate-config/issues"
+  },
+  "homepage": "https://github.com/medici/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "28.8.2",
+    "standard-version": "9.3.2"
+  }
+}
